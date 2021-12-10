@@ -54,5 +54,3 @@ class ShopUserEditForm(UserChangeForm):
             raise forms.ValidationError("Вы слишком маленький")
 
         return data_age
-
-
